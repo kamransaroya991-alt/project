@@ -1,0 +1,10 @@
+quantity,value
+Vertices,100.0
+Edges,2451.0
+Bridges,1.0
+Articulations,2.0
+Bridge fraction,0.0004079967360261118
+Degree 95th percentile,49.0
+Betweenness 95th percentile,0.0
+Maximum betweenness,0.505050505050505
+Largest component fraction after bridge removal,0.5

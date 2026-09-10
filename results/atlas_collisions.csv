@@ -1,0 +1,4 @@
+signature,unique_signatures,graphs_in_nonunique_groups,largest_collision_group,graphs
+Degree sequence,492,964,20,1251
+Degree + clustering,1146,190,6,1251
+Degree + clustering + core + cuts,1170,154,3,1251

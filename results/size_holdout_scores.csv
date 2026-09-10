@@ -1,0 +1,10 @@
+feature_set,held_size,balanced_accuracy,train_graphs,test_graphs
+Degree only,120,0.85,120,60
+Degree only,240,0.8333333333333333,120,60
+Degree only,480,0.7333333333333333,120,60
+Visible subset,120,0.9166666666666667,120,60
+Visible subset,240,1.0,120,60
+Visible subset,480,0.9833333333333332,120,60
+Full signature,120,0.95,120,60
+Full signature,240,1.0,120,60
+Full signature,480,0.9833333333333332,120,60

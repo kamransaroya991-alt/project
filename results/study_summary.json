@@ -1,0 +1,23 @@
+{
+  "ensemble_graphs": 180,
+  "empirical_graphs": 5,
+  "numerical_checks": 103,
+  "numerical_checks_passed": 103,
+  "max_scaling_vertices": 10000,
+  "size_holdout_balanced_accuracy": 0.9777777777777779,
+  "seed_cluster_bootstrap_95CI": [
+    0.961111111111111,
+    0.9944444444444445
+  ],
+  "bootstrap_replicates": 2000,
+  "pca_variance": [
+    0.45021276218868334,
+    0.24023117835268123
+  ],
+  "label_permutation_p": 0.025,
+  "lfr_attempts": 32,
+  "lfr_successes": 26,
+  "human_participants": 0,
+  "analytical_figures": 42,
+  "analytic_tail_checks": 6
+}

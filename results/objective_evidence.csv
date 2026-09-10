@@ -1,0 +1,6 @@
+objective,evidence,status
+Build the corpus,datasets.json; data_cleaning.csv; graph_ensemble.csv,Five complete small case graphs and 180 controlled graphs; large-graph tests are synthetic
+Compute descriptors,empirical_descriptors.csv; numerical_tests.csv,103 numerical checks; approximation error reported
+Implement the plot,Worked and empirical structural plots,"Percentile tracks, community share and bottleneck markers implemented"
+Compare representations,baseline_times.csv; size_holdout_scores.csv,Computational and descriptor comparisons; human readability unmeasured
+Identify limitations,atlas_collisions.csv; edge_deletion.csv; lfr_benchmark.csv,"Information loss, sensitivity and generation failure retained"

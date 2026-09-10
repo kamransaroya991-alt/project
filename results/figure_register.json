@@ -1,0 +1,254 @@
+[
+  {
+    "number": 1,
+    "file": "01_corpus_sizes.png",
+    "title": "Case-study graph sizes",
+    "description": "Complete source graphs; vertex and edge counts are not samples."
+  },
+  {
+    "number": 2,
+    "file": "02_corpus_density.png",
+    "title": "Case-study densities",
+    "description": "Density uses the simple undirected convention, not the bipartite fill denominator."
+  },
+  {
+    "number": 3,
+    "file": "03_degree_ecdf.png",
+    "title": "Degree distributions",
+    "description": "Complete distributions are shown rather than only their means."
+  },
+  {
+    "number": 4,
+    "file": "04_clustering_ecdf.png",
+    "title": "Local clustering distributions",
+    "description": "A bipartite graph has no triangles; zero clustering does not imply an absence of event structure."
+  },
+  {
+    "number": 5,
+    "file": "05_numerical_checks.png",
+    "title": "Numerical verification coverage",
+    "description": "Counts come from executed assertions; a passing test is not a usability result."
+  },
+  {
+    "number": 6,
+    "file": "06_worked_example.png",
+    "title": "A worked structural network plot",
+    "description": "Seven vertices, six edges, one triangle, three bridges and one isolate."
+  },
+  {
+    "number": 7,
+    "file": "07_snp_karate.png",
+    "title": "Structural plot: Karate club",
+    "description": "The same grammar and percentile definitions are used for every graph."
+  },
+  {
+    "number": 8,
+    "file": "08_snp_lesmis.png",
+    "title": "Structural plot: Les Miserables",
+    "description": "The same grammar and percentile definitions are used for every graph."
+  },
+  {
+    "number": 9,
+    "file": "09_snp_davis.png",
+    "title": "Structural plot: Southern women",
+    "description": "The same grammar and percentile definitions are used for every graph."
+  },
+  {
+    "number": 10,
+    "file": "10_snp_florentine.png",
+    "title": "Structural plot: Florentine families",
+    "description": "The same grammar and percentile definitions are used for every graph."
+  },
+  {
+    "number": 11,
+    "file": "11_snp_celegans.png",
+    "title": "Structural plot: C. elegans",
+    "description": "The same grammar and percentile definitions are used for every graph."
+  },
+  {
+    "number": 12,
+    "file": "12_node_link_karate.png",
+    "title": "Node-link baseline: Karate club",
+    "description": "Complete graph; a 100-iteration force-directed layout uses a fixed seed."
+  },
+  {
+    "number": 13,
+    "file": "13_matrix_karate.png",
+    "title": "Adjacency-matrix baseline: Karate club",
+    "description": "Ordering uses the same inferred partition as the summary, not external labels."
+  },
+  {
+    "number": 14,
+    "file": "14_node_link_lesmis.png",
+    "title": "Node-link baseline: Les Miserables",
+    "description": "Complete graph; a 100-iteration force-directed layout uses a fixed seed."
+  },
+  {
+    "number": 15,
+    "file": "15_matrix_lesmis.png",
+    "title": "Adjacency-matrix baseline: Les Miserables",
+    "description": "Ordering uses the same inferred partition as the summary, not external labels."
+  },
+  {
+    "number": 16,
+    "file": "16_triangles_bridges.png",
+    "title": "Triangles and bridges",
+    "description": "Zero bars are absent on the logarithmic axis and remain explicit in the descriptor table."
+  },
+  {
+    "number": 17,
+    "file": "17_weight_semantics.png",
+    "title": "Weighted versus unweighted degree",
+    "description": "Weights represent interaction contexts and are not interpreted as distances."
+  },
+  {
+    "number": 18,
+    "file": "18_bipartite_projection.png",
+    "title": "Bipartite projection changes density",
+    "description": "Pairwise ties through shared events do not give an equivalent rendering of the original two-mode graph."
+  },
+  {
+    "number": 19,
+    "file": "19_directionality.png",
+    "title": "Direction loss in the neural archive",
+    "description": "Directed strong connectivity and undirected connectivity are different quantities; the summary is computed only after projection."
+  },
+  {
+    "number": 20,
+    "file": "20_partition_stability.png",
+    "title": "Partition stability across random starts",
+    "description": "Each distribution contains 190 dependent pairwise agreements from 20 starts."
+  },
+  {
+    "number": 21,
+    "file": "21_resolution.png",
+    "title": "Community-resolution sensitivity",
+    "description": "Error bars are standard deviations across five optimisation seeds, not confidence intervals."
+  },
+  {
+    "number": 22,
+    "file": "22_family_clustering.png",
+    "title": "Clustering across controlled families",
+    "description": "Each family contributes 36 graphs; size and seed are retained for blocked evaluation."
+  },
+  {
+    "number": 23,
+    "file": "23_pca.png",
+    "title": "Principal-component projection",
+    "description": "This full-ensemble unsupervised projection is descriptive, not a held-out predictive result."
+  },
+  {
+    "number": 24,
+    "file": "24_holdout_accuracy.png",
+    "title": "Feature ablation with size holdout",
+    "description": "All models use the same splits; imputation is fitted on training graphs only."
+  },
+  {
+    "number": 25,
+    "file": "25_confusion.png",
+    "title": "Out-of-size confusion matrix",
+    "description": "Each of 180 graphs is predicted once by a model trained on the other two sizes."
+  },
+  {
+    "number": 26,
+    "file": "26_importance.png",
+    "title": "Held-out feature importance",
+    "description": "Correlated descriptors may substitute for one another; this is not a causal mechanism ranking."
+  },
+  {
+    "number": 27,
+    "file": "27_chance_control.png",
+    "title": "Label-permutation chance control",
+    "description": "Thirty-nine permutations give a minimum attainable plus-one p-value of 0.025; the diagnostic is exploratory."
+  },
+  {
+    "number": 28,
+    "file": "28_retrieval.png",
+    "title": "Distances from empirical signatures to generator centres",
+    "description": "Synthetic scales define the metric; nearest centres do not identify empirical generating processes."
+  },
+  {
+    "number": 29,
+    "file": "29_rewiring.png",
+    "title": "Small-world rewiring response",
+    "description": "All graphs have 300 vertices and 1,200 edges; error bars are between-seed standard deviations."
+  },
+  {
+    "number": 30,
+    "file": "30_block_recovery.png",
+    "title": "Planted-community recovery",
+    "description": "Agreement uses the known block assignment, not a truth inferred from modularity."
+  },
+  {
+    "number": 31,
+    "file": "31_block_modularity.png",
+    "title": "Modularity under increasing mixing",
+    "description": "Modularity and recovery answer different questions; a high score alone does not establish a true partition."
+  },
+  {
+    "number": 32,
+    "file": "32_lfr.png",
+    "title": "LFR recovery and generation availability",
+    "description": "Every attempt is retained; failed generations are not replaced with a different family."
+  },
+  {
+    "number": 33,
+    "file": "33_deletion_drift.png",
+    "title": "Signature drift under edge deletion",
+    "description": "Twelve deletion replicates per setting on one fixed graph; bars are standard deviations, not population uncertainty."
+  },
+  {
+    "number": 34,
+    "file": "34_deletion_bridges.png",
+    "title": "Bottleneck sensitivity to missing edges",
+    "description": "The denominator is remaining edges; both bridge counts and fractions are retained in the table."
+  },
+  {
+    "number": 35,
+    "file": "35_betweenness_error.png",
+    "title": "Sampling error in betweenness",
+    "description": "Fifteen source samples per setting; the full-source calculation is compared with exact computation."
+  },
+  {
+    "number": 36,
+    "file": "36_degree_preserving.png",
+    "title": "Degree-preserving rewiring",
+    "description": "Every degree sequence is checked for equality; closure and modularity remain free to change."
+  },
+  {
+    "number": 37,
+    "file": "37_collisions.png",
+    "title": "Non-uniqueness in the graph atlas",
+    "description": "The tested keys are numerical marginal summaries, not the complete visual grammar; the result exposes one information-loss mechanism."
+  },
+  {
+    "number": 38,
+    "file": "38_runtime.png",
+    "title": "Descriptor-extraction scaling",
+    "description": "Median and range across five sparse preferential-attachment graphs per size; 32 betweenness source samples."
+  },
+  {
+    "number": 39,
+    "file": "39_memory.png",
+    "title": "Memory scaling",
+    "description": "The dense line is calculated storage, not a measured matrix run. Tracemalloc excludes some native allocations."
+  },
+  {
+    "number": 40,
+    "file": "40_baseline_times.png",
+    "title": "End-to-end baseline timings",
+    "description": "Construction and rendering at the same canvas size; three graphs per size, without a perceptual outcome."
+  },
+  {
+    "number": 41,
+    "file": "41_mark_complexity.png",
+    "title": "Representation mark complexity",
+    "description": "Counts exclude axes, text and raster pixels. Twelve community blocks and one residual block bound the strip."
+  },
+  {
+    "number": 42,
+    "file": "42_bootstrap.png",
+    "title": "Uncertainty in generator discrimination",
+    "description": "The bootstrap resamples twelve seed clusters; it does not quantify transfer to real networks."
+  }
+]

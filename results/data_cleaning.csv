@@ -1,0 +1,6 @@
+input_nodes,input_edges,removed_loops,collapsed_pairs,analysis_nodes,analysis_edges,dataset,sha256
+34,78,0,0,34,78,Karate club,0f0028e26b0fd66b54ebdb1eed35c155b35f55ebb1be442605a9166703f1a16f
+77,254,0,0,77,254,Les Miserables,80d1415344efa1d60f91d617ee943f98b4c2e9f9703de17fe7ac24b558fea86d
+32,89,0,0,32,89,Southern women,153504f9f5ee4d321dcd74c365d762980a5a8668bd537254ccc1a36ec92e64fa
+15,20,0,0,15,20,Florentine families,f7978df55df79d7ee8fe1f126f0931da62fa14163938034beac50bd0c326cd81
+297,2359,0,211,297,2148,C. elegans,eb883b9a601027891b9c422689ba16d06d979aee4956cae5610d0a9c1dfbd66e

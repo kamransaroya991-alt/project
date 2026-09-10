@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Karate club",
+    "file": "karate_club.json",
+    "source": "https://networkx.org/documentation/stable/reference/generated/networkx.generators.social.karate_club_graph.html",
+    "distribution": "NetworkX 3.6.1 (2025)",
+    "nodes": 34,
+    "edges": 78,
+    "directed": false,
+    "weighted": true
+  },
+  {
+    "name": "Les Miserables",
+    "file": "les_miserables.json",
+    "source": "https://networkx.org/documentation/stable/reference/generated/networkx.generators.social.les_miserables_graph.html",
+    "distribution": "NetworkX 3.6.1 (2025)",
+    "nodes": 77,
+    "edges": 254,
+    "directed": false,
+    "weighted": true
+  },
+  {
+    "name": "Southern women",
+    "file": "southern_women.json",
+    "source": "https://networkx.org/documentation/stable/reference/generated/networkx.generators.social.davis_southern_women_graph.html",
+    "distribution": "NetworkX 3.6.1 (2025)",
+    "nodes": 32,
+    "edges": 89,
+    "directed": false,
+    "weighted": false
+  },
+  {
+    "name": "Florentine families",
+    "file": "florentine_families.json",
+    "source": "https://networkx.org/documentation/stable/reference/generated/networkx.generators.social.florentine_families_graph.html",
+    "distribution": "NetworkX 3.6.1 (2025)",
+    "nodes": 15,
+    "edges": 20,
+    "directed": false,
+    "weighted": false
+  },
+  {
+    "name": "C. elegans",
+    "file": "celegansneural.gml.gz",
+    "source": "https://github.com/cran/igraph/blob/master/tests/testthat/celegansneural.gml.gz",
+    "distribution": "igraph archival test data",
+    "nodes": 297,
+    "edges": 2359,
+    "directed": true,
+    "weighted": true,
+    "git_blob": "9f2b2e18aca6f5136d97276d794370684c8bdcec"
+  }
+]
